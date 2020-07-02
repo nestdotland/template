@@ -1,8 +1,10 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: "A concise title here!"
-labels: enhancement
+title: A concise title here!
+labels: 'type: feature, status: needs triage'
+assignees: ''
+
 ---
 
 **Is your feature request related to a problem? If so, please describe.**
