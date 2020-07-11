@@ -5,12 +5,12 @@ labels: 'type: feature, status: needs triage'
 ---
 
 <!--
-  🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨
-  > What happens if I delete this entire template and go my own path?
 
-  Someone will read your feature proposal and maybe will be able to help you,
-  but it’s unlikely that it will get much attention from the team. Eventually,
-  the issue will likely get closed in favor of issues that have better explanations
+🚨 What happens if you delete this entire template and go your own path?
+
+Someone will read your feature proposal and maybe will be able to help you,
+but it’s unlikely that it will get much attention from the team. Eventually,
+the issue will likely get closed in favor of issues that have better explanations
 
 -->
 
