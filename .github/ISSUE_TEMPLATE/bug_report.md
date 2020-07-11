@@ -4,22 +4,23 @@ about: Submit a bug report to help us improve
 labels: 'type: bug, status: needs triage'
 ---
 
-<!-- 
-  🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨
-  > What happens if I delete this entire template and go my own path?
+<!--
 
-  Someone will read your bug report, and maybe will be able to help you,
-  but it’s unlikely that it will get much attention from the team. Eventually,
-  the issue will likely get closed in favor of issues that have this template.
-  Please provide all the info requested in this template.
+🚨 What happens if you delete this entire template and go your own path
 
-  Please remember that:
+Someone will read your bug report, and maybe will be able to help you,
+but it’s unlikely that it will get much attention from the team. Eventually,
+the issue will likely get closed in favor of issues that have this template.
+Please provide all the info requested in this template.
 
-    * The person fixing the bug would have to figure out these details anyway. Please be respectful of their time.
-    * You might figure out the issues yourself as you work on extracting these details.
-    * If you list multiple bugs/concerns in this one issue, it makes it hrd to track the progress.
-    * If you open an issue that has many duplicates, the triager may close your issue.
-    * If yuo file something completely blank in the body, the triager may close your issue without further explanation or engagement.
+Please remember that:
+
+  * The person fixing the bug would have to figure out these details anyway. Please be respectful of their time.
+  * You might figure out the issues yourself as you work on extracting these details.
+  * If you list multiple bugs/concerns in this one issue, it makes it hrd to track the progress.
+  * If you open an issue that has many duplicates, the triager may close your issue.
+  * If yuo file something completely blank in the body, the triager may close your issue without further explanation or engagement.
+
 -->
 
 ## 🐛 Bug Report
