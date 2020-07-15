@@ -11,7 +11,7 @@ labels: 'type: help, status: needs triage'
 Please contact us instead. We have a few channels:
 
 - Twitter: https://twitter.com/nestdotland
-- Discord: no public Discord yet
+- Discussions: https://github.com/nestdotland/nest.land/discussions
 
 -->
 
