@@ -1,4 +1,4 @@
-## Template
+# Template
 
 A template for nest.land repositories. Remove this sentence and change this header to describe the project this template is being used for.
 
