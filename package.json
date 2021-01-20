@@ -10,6 +10,7 @@
   "scripts": {
     "start": "ts-node src/index.ts",
     "build": "tsc",
+    "test": "echo 'no tests are defined'",
     "fmt": "prettier --check .",
     "fmt:write": "prettier --write ."
   },
