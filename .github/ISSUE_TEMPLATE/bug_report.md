@@ -23,7 +23,7 @@ Please remember that:
 
 -->
 
-## 🐛 Bug Report
+# 🐛 Bug Report
 
 <!-- A clear and concise description of what the bug is -->
 

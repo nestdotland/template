@@ -6,7 +6,7 @@ labels: 'bug report, needs triage'
 
 <!-- NOTE: The title must follow Conventional Commit format -->
 
-## 🐛 Bug
+# 🐛 Bug
 
 <!-- A clear and concise description of what caused the bug -->
 

@@ -6,6 +6,6 @@ labels: 'documentation, needs triage'
 
 <!-- NOTE: The title must follow Conventional Commit format -->
 
-## 📚 Documentation Revision
+# 📚 Documentation Revision
 
 <!-- A clear and concise description of what was changed and why -->
