@@ -1,0 +1,21 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Semver tag
+        required: true
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Release ${{ matrix.tag }}
+        uses: ncipollo/release-action@v1
+        with:
+          tag: '${{ github.event.inputs.repo }}'
+          name: '${{ github.event.inputs.repo }}'
+          bodyFile: 'CHANGELOG.md'
+          token: ${{ secrets.GITHUB_TOKEN }}
