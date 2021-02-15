@@ -3,19 +3,33 @@ name: Release
 on:
   workflow_dispatch:
     inputs:
-      version:
+      tag:
         description: Semver tag
         required: true
 
 jobs:
   release:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Setup Deno
+        uses: denolib/setup-deno@v2
+        with:
+          deno-version: v1.7.4
+
+      - name: Generate Release Notes
+        # TODO(@maximousblk): switch to nest when new registry is released
+        run: deno run -A https://deno.land/x/ghlog@0.3.0/ghlog.ts ${{ github.repository }} -v '${{ github.event.inputs.tag }}'
+
       - name: Release ${{ matrix.tag }}
         uses: ncipollo/release-action@v1
         with:
-          tag: '${{ github.event.inputs.repo }}'
-          name: '${{ github.event.inputs.repo }}'
+          tag: '${{ github.event.inputs.tag }}'
+          name: 'v${{ github.event.inputs.tag }}'
           bodyFile: 'CHANGELOG.md'
+          draft: true
           token: ${{ secrets.GITHUB_TOKEN }}
