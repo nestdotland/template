@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        #### 🚨 What happens if you don't follow this template and go your own path?
+        ### 🚨 What happens if you don't follow this template and go your own path?
 
         Someone will read your bug report, and maybe will be able to help you,
         but it’s unlikely that it will get much attention from the team. Eventually,
