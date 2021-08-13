@@ -31,7 +31,6 @@ body:
 
   - type: textarea
     attributes:
-      render: markdown
       label: Description
       description: A clear and concise description of what the bug is
     validations:
@@ -39,7 +38,6 @@ body:
 
   - type: textarea
     attributes:
-      render: markdown
       label: Current Behavior
       description: |
         Is something broken, or not behaving as you expected?
@@ -50,7 +48,6 @@ body:
 
   - type: textarea
     attributes:
-      render: markdown
       label: Expected Behavior
       description: |
         How did you expect your project to behave?
@@ -61,7 +58,6 @@ body:
 
   - type: textarea
     attributes:
-      render: markdown
       label: Steps To Reproduce
       description: Steps to reproduce the behavior.
       placeholder: |
