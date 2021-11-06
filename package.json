@@ -12,7 +12,7 @@
     "build": "tsc",
     "test": "echo 'no tests are defined'",
     "fmt": "prettier --check .",
-    "fmt:write": "prettier --write ."
+    "fmt:fix": "prettier --write ."
   },
   "devDependencies": {
     "@types/node": "^14.14.22",
