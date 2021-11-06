@@ -1,6 +1,6 @@
 name: 🐛 Bug Report
 description: Submit a bug report
-labels: ['bug report', 'needs triage']
+labels: ["bug report", "needs triage"]
 
 body:
   - type: markdown
@@ -70,16 +70,16 @@ body:
   - type: input
     attributes:
       label: OS Version
-      description: 'Name and version of your operating system'
-      placeholder: 'Ubuntu 20.04'
+      description: "Name and version of your operating system"
+      placeholder: "Ubuntu 20.04"
     validations:
       required: true
 
   - type: input
     attributes:
       label: Deno Version
-      description: 'Long form of your Deno version (`deno --version`)'
-      placeholder: 'deno 1.13.0 (release, x86_64-unknown-linux-gnu)'
+      description: "Long form of your Deno version (`deno --version`)"
+      placeholder: "deno 1.13.0 (release, x86_64-unknown-linux-gnu)"
     validations:
       required: true
 

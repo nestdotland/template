@@ -2,7 +2,6 @@
   "private": true,
   "name": "template",
   "description": "Repository template",
-  "private": true,
   "main": "dist/index.js",
   "repository": "https://github.com/nestdotland/template",
   "author": "Maximous Black <maximousblk@gmail.com>",
@@ -15,10 +14,10 @@
     "fmt:fix": "prettier --write ."
   },
   "devDependencies": {
-    "@types/node": "^14.14.22",
-    "prettier": "^2.2.1",
-    "ts-node": "^9.1.1",
-    "typescript": "^4.1.3"
+    "@types/node": "^16.11.6",
+    "prettier": "^2.4.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
   },
   "prettier": {
     "printWidth": 120

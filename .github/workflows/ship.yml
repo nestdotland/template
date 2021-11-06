@@ -28,8 +28,8 @@ jobs:
       - name: Release ${{ matrix.tag }}
         uses: ncipollo/release-action@v1
         with:
-          tag: '${{ github.event.inputs.tag }}'
-          name: 'v${{ github.event.inputs.tag }}'
-          bodyFile: 'CHANGELOG.md'
+          tag: "${{ github.event.inputs.tag }}"
+          name: "v${{ github.event.inputs.tag }}"
+          bodyFile: "CHANGELOG.md"
           draft: true
           token: ${{ secrets.GITHUB_TOKEN }}
