@@ -1,12 +1,12 @@
 {
+  "private": true,
   "name": "template",
-  "version": "1.0.0",
   "description": "Repository template",
+  "private": true,
   "main": "dist/index.js",
   "repository": "https://github.com/nestdotland/template",
   "author": "Maximous Black <maximousblk@gmail.com>",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "start": "ts-node src/index.ts",
     "build": "tsc",
@@ -21,10 +21,9 @@
     "typescript": "^4.1.3"
   },
   "prettier": {
-    "singleQuote": true,
     "printWidth": 120
   },
   "engines": {
-    "node": "14"
+    "node": ">=14"
   }
 }
